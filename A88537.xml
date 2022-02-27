@@ -1,0 +1,1050 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A looking-glasse of the world, or, The plundred man in Ireland. His voyage, his observation of the beasts of the field, of the fishes of the sea, of the fowls of the aire, of the severall professions of men, &amp;c.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1644</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 28 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A88537</idno>
+            <idno type="STC">Wing L3037</idno>
+            <idno type="STC">Thomason E7_32</idno>
+            <idno type="STC">ESTC R1539</idno>
+            <idno type="EEBO-CITATION">99859852</idno>
+            <idno type="PROQUEST">99859852</idno>
+            <idno type="VID">111952</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A88537)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 111952)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 2:E7[32])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A looking-glasse of the world, or, The plundred man in Ireland. His voyage, his observation of the beasts of the field, of the fishes of the sea, of the fowls of the aire, of the severall professions of men, &amp;c.</title>
+               </titleStmt>
+               <extent>[4], 16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by F. N.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1644.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Annotation on Thomason copy: "Aug: 31".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ireland.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-11</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-11</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:111952:1" rendition="simple:additions"/>
+            <p>A LOOKING-GLASSE OF THE WORLD, <hi>OR,</hi> The Plundred Man in IRELAND.</p>
+            <p>His voyage, his obſervation of the Beaſts of the Field, of the Fiſhes of the Sea, of the Fowls of the Aire, of the ſeverall Pro<g ref="char:EOLhyphen"/>feſſions of Men, &amp;c.</p>
+            <p>
+               <hi>LONDON:</hi> Printed by <hi>F.N.</hi> 1644.</p>
+         </div>
+         <div type="complaint">
+            <pb facs="tcp:111952:2"/>
+            <pb facs="tcp:111952:2"/>
+            <head>THE COMPLAINT.</head>
+            <lg>
+               <l>
+                  <hi>
+                     <seg rend="decorInit">W</seg>Ho can that hears or ſees but bear a part,</hi>
+               </l>
+               <l>
+                  <hi>To help to bewail our grievous ſmart?</hi>
+               </l>
+               <l>
+                  <hi>Being lately bleſſed with perfect health,</hi>
+               </l>
+               <l>
+                  <hi>And alſo indued with ſtore of wealth.</hi>
+               </l>
+               <l>
+                  <hi>Nothing afraid our happie ſtate</hi>
+               </l>
+               <l>
+                  <hi>Should change by any untimely fate:</hi>
+               </l>
+               <l>
+                  <hi>Our people from the fields come runne,</hi>
+               </l>
+               <l>
+                  <hi>To bring us news we were undone.</hi>
+               </l>
+               <l>
+                  <hi>The Countrey up againſt us riſe,</hi>
+               </l>
+               <l>
+                  <hi>Making our goods their lawfull priſe;</hi>
+               </l>
+               <l>
+                  <hi>Often we trotted from Market to Faire,</hi>
+               </l>
+               <l>
+                  <hi>And for the good beaſt no money we ſpare.</hi>
+               </l>
+               <l>
+                  <hi>To adde to our ſtood, our herd, and our flock,</hi>
+               </l>
+               <l>
+                  <hi>That now we were come into a brave ſtock;</hi>
+               </l>
+               <l>
+                  <hi>Each yeer great droves we could well affoard,</hi>
+               </l>
+               <l>
+                  <hi>Of fatted good Beeves to ſend a Ship-board.</hi>
+               </l>
+               <l>
+                  <hi>Firſt went our fat, and after the leane,</hi>
+               </l>
+               <l>
+                  <hi>Next at our ſelves they draw their Skeene;</hi>
+               </l>
+               <l>
+                  <hi>Our Market being ſpoiled thus on the Land,</hi>
+               </l>
+               <l>
+                  <hi>And troubles increaſe as thick as the ſand.</hi>
+               </l>
+               <l>
+                  <hi>Some catcheth the pickax for the hard ground,</hi>
+               </l>
+               <l>
+                  <hi>Some ſhoule and ſpade to make the trench round;</hi>
+               </l>
+               <l>
+                  <hi>Some conſtrained to carry the barrow,</hi>
+               </l>
+               <l>
+                  <hi>While other the houſe top watch with the ſparrow.</hi>
+               </l>
+               <pb facs="tcp:111952:3"/>
+               <l>
+                  <hi>To tell all our grief I mean not here,</hi>
+               </l>
+               <l>
+                  <hi>Fearing leſt ſome ſhould let fall a teare;</hi>
+               </l>
+               <l>
+                  <hi>Yet to think upon our ſetled place,</hi>
+               </l>
+               <l>
+                  <hi>Whence we were thruſt with foule diſgrace:</hi>
+               </l>
+               <l>
+                  <hi>This makes our heart with ſorrow ſpring,</hi>
+               </l>
+               <l>
+                  <hi>That have heard their mocks and libels ſing.</hi>
+               </l>
+               <l>
+                  <hi>But give ſuch leave in height of their pride</hi>
+               </l>
+               <l>
+                  <hi>Vnto their own ruine faſt to ride.</hi>
+               </l>
+               <l>
+                  <hi>And all that doth againſt Gods truth ſtand,</hi>
+               </l>
+               <l>
+                  <hi>May fall as ſhipwrackt on the ſand.</hi>
+               </l>
+               <l>
+                  <hi>God end theſe troubles, and ſend peace,</hi>
+               </l>
+               <l>
+                  <hi>That our eſtates and friends may increaſe;</hi>
+               </l>
+               <l>
+                  <hi>Happily to live, comfortably to die,</hi>
+               </l>
+               <l>
+                  <hi>On the wings of Faith to God to flie.</hi>
+               </l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="1" facs="tcp:111952:3"/>
+            <head>A Looking-Glaſſe of the World: <hi>OR, The Plundred Mans voiage.</hi>
+            </head>
+            <div type="part">
+               <lg>
+                  <l>
+                     <seg rend="decorInit">T</seg>He Earth is made both firm and ſure,</l>
+                  <l>To Man and his heirs for to endure;</l>
+                  <l>With all things moving in wood or field,</l>
+                  <l>Their ſervice unto man doth yeeld.</l>
+               </lg>
+               <lg>
+                  <l>The ſtately Horſe both ſwift and ſtrong,</l>
+                  <l>Is guided with a leather thong:</l>
+                  <l>In warre, in peace, ſeek the world round,</l>
+                  <l>A more uſefull creature is not found.</l>
+               </lg>
+               <lg>
+                  <l>The Cow I can hardly reaiſe,</l>
+                  <l>How in few words I ſhould her praiſe;</l>
+                  <l>Of her we find meat for babes and men,</l>
+                  <l>God grant we never want her then.</l>
+               </lg>
+               <lg>
+                  <l>The Sheep for profit not the leaſt,</l>
+                  <l>But may compare with any beaſt,</l>
+                  <l>For every yeer a fleece doth ſpring,</l>
+                  <l>Makes Spinners and Carders merrily ſing.</l>
+               </lg>
+               <lg>
+                  <l>The Goat doth crop the tender tree,</l>
+                  <l>Wherefore keep from thy Nurcerie:</l>
+                  <l>Yet good is both their fleſh and milk,</l>
+                  <l>Their skin for gloves well ſowe with ſilk.</l>
+               </lg>
+               <lg>
+                  <l>The Hogges delight is in the mire,</l>
+                  <l>Beſtowe on him a ring of wire,</l>
+                  <l>That he may weare it in his noſe,</l>
+                  <l>And will not be proud thereof I ſuppoſe.</l>
+               </lg>
+               <pb n="2" facs="tcp:111952:4"/>
+               <lg>
+                  <l>The Dogge waits at his maſters heels</l>
+                  <l>When he doth walk abroad the fields.</l>
+                  <l>And when that honeſt men do reſt,</l>
+                  <l>He takes a thief then by the breſt.</l>
+               </lg>
+               <lg>
+                  <l>The Cat doth watch by the wheat mow,</l>
+                  <l>To keep away thoſe we not allow;</l>
+                  <l>As Rat and Mouſe with their vermin breed,</l>
+                  <l>That deſtroys our corn for bread and ſeed.</l>
+               </lg>
+               <lg>
+                  <l>The Lyon of all beaſts is the king,</l>
+                  <l>His fearfull roaring like thundering:</l>
+                  <l>Men praiſeth him for his bold heart,</l>
+                  <l>Kept cloſe priſoner, leſt ſome he make ſmart.</l>
+               </lg>
+               <lg>
+                  <l>The Unicorn doth ſtately weare</l>
+                  <l>A horn of vertue that is moſt rare;</l>
+                  <l>Which many be very glad to have.</l>
+                  <l>To buy, to borrow, to begge, or crave.</l>
+               </lg>
+               <lg>
+                  <l>The Bear, and Woolf, both fierce and wilde,</l>
+                  <l>Whoſe nature is not to be milde,</l>
+                  <l>We watch and ward with Bowe and Bill,</l>
+                  <l>Leſt they our flocks and herds ſhould ſpill.</l>
+               </lg>
+               <lg>
+                  <l>The Fox an enemy to the young lambe,</l>
+                  <l>And ſubtle enough to deceive the dam:</l>
+                  <l>They are very bad that no good can,</l>
+                  <l>The Fox being good to the palſie man.</l>
+               </lg>
+               <lg>
+                  <l>The Hare would faint, but by cunning trace</l>
+                  <l>She lives in hope to win the race;</l>
+                  <l>Yet many a huntſman to death follow,</l>
+                  <l>With making ſport to whoop and hollow.</l>
+               </lg>
+               <lg>
+                  <l>The Monkey, and the Jackanapes tricks</l>
+                  <l>Deſerves ſometimes a rod of ſticks;</l>
+                  <l>Yet for nimbleneſſe they farre exceed</l>
+                  <l>Moſt beaſts that on the earth do feed.</l>
+               </lg>
+               <pb n="3" facs="tcp:111952:4"/>
+               <lg>
+                  <l>On the mightie oake the Squerill leaps,</l>
+                  <l>Thence to the heaſle-tree retreats,</l>
+                  <l>To gather, and hurd what ſhe doth lack</l>
+                  <l>Nuts for her diet, which ſhe will crack.</l>
+               </lg>
+               <lg>
+                  <l>The Rabbet clothed all in furre</l>
+                  <l>Being taken by a lurching curre;</l>
+                  <l>Thoſe that do quake to feel the cold,</l>
+                  <l>On the Rabets skin doth lay faſt hold.</l>
+               </lg>
+               <lg>
+                  <l>The Buck and Dowe in forreſt wide,</l>
+                  <l>Are oft-times forſt their heads to hide:</l>
+                  <l>The threatnings of the horn and hound</l>
+                  <l>The woods with eccows do rebound.</l>
+               </lg>
+               <lg>
+                  <l>The Hedgehogge weapons never doth lack,</l>
+                  <l>He carrieth ſtill a bundle ats back:</l>
+                  <l>And when he ſuſpecteth any harm,</l>
+                  <l>He preſently therewith round doth arm.</l>
+               </lg>
+               <lg>
+                  <l>The Mould doth digge without any thanks,</l>
+                  <l>And maketh many little banks;</l>
+                  <l>To throw them down they may that pleaſe,</l>
+                  <l>Her ſelf reſolves not to live at eaſe.</l>
+               </lg>
+               <lg>
+                  <l>Into our orchard the Snail doth creep,</l>
+                  <l>And climbes into the trees are ſteep;</l>
+                  <l>But little welcome there to have,</l>
+                  <l>Before it be ripe the fruit to crave.</l>
+               </lg>
+               <lg>
+                  <l>The Frogge that lives in meadow green,,</l>
+                  <l>Sometimes more black then yellow ſeen:</l>
+                  <l>Though the Frog alters with the weather</l>
+                  <l>Let not mens minds change with a feather.</l>
+               </lg>
+               <lg>
+                  <l>The ſwelling Toad each man doth fear,</l>
+                  <l>His poyſoning breath for to come neer:</l>
+                  <l>But if the Toad be dead and drie,</l>
+                  <l>In the head a pearl more ſaies then I.</l>
+               </lg>
+               <pb n="4" facs="tcp:111952:5"/>
+               <lg>
+                  <l>The Spider to make threed doth uſe,</l>
+                  <l>And ſets her web in the light to chuſe:</l>
+                  <l>Her living chiefly herein lies,</l>
+                  <l>By catching of the heedleſſe flies.</l>
+               </lg>
+               <lg>
+                  <l>Of all the kind of wormes that be,</l>
+                  <l>The Silk-worme chiefeſt in degree:</l>
+                  <l>For Kings and Queens do think no ſcorn,</l>
+                  <l>Their work upon them to be worn.</l>
+               </lg>
+               <lg>
+                  <l>The Louce the quick eye doth eſpie,</l>
+                  <l>Where he lies couchant ſecretly:</l>
+                  <l>By chance makes many a ſtout man ſhugge,</l>
+                  <l>Well as the begger cloth'd in a patch'd rugge.</l>
+               </lg>
+               <lg>
+                  <l>The Moth ſpares not our ſcarlet red,</l>
+                  <l>But eats it too and through the threed:</l>
+                  <l>If ſuch a ſmall creature can us annoy,</l>
+                  <l>What have we ſecure here to injoy?</l>
+               </lg>
+               <lg>
+                  <l>In the raging Seas and reſtleſſe floods,</l>
+                  <l>God hath provided for our goods;</l>
+                  <l>Such great varieties of fiſh,</l>
+                  <l>As any heart of man can wiſh.</l>
+               </lg>
+               <lg>
+                  <l>The Oyſter without bone or claw,</l>
+                  <l>Commonly we eat them raw;</l>
+                  <l>And chuſe them for a breakfaſt fine,</l>
+                  <l>Being well waſht with a cup of wine.</l>
+               </lg>
+               <lg>
+                  <l>The Crab and Lobſter with many feet,</l>
+                  <l>Upon the ground not accounted fleet;</l>
+                  <l>Yet at feaſting tables comes in the crowd,</l>
+                  <l>And for daintie diſhes are allow'd.</l>
+               </lg>
+               <lg>
+                  <l>The Sturgeon, Saman, and the Ling.</l>
+                  <l>The Flounder, Plaiſe, and the Whiting;</l>
+                  <l>Theſe after the Fiſhers-boat doth dance,</l>
+                  <l>And into <hi>England, Spaine,</hi> and <hi>France.</hi>
+                  </l>
+               </lg>
+               <pb n="5" facs="tcp:111952:5"/>
+               <lg>
+                  <l>With the Whale what creature can compare,</l>
+                  <l>For greatneſſe in earth, water, or aire?</l>
+                  <l>Man unto man wondring tels</l>
+                  <l>What monſters in the Sea there dwels.</l>
+               </lg>
+               <lg>
+                  <l>The Sprat and Herring in number great,</l>
+                  <l>We do provide for ſpeoiall meat,</l>
+                  <l>Againſt the Spring, and time of Lent;</l>
+                  <l>For to eat fleſh ſome have been ſhent.</l>
+               </lg>
+               <lg>
+                  <l>The Pike, the Breame, the Roach, the Dace,</l>
+                  <l>The Ele the mud is his chief place;</l>
+                  <l>Theſe are deceived by baited looks,</l>
+                  <l>Beware Youth of wanton womens looks.</l>
+               </lg>
+               <lg>
+                  <l>The Otter or the water-dogge,</l>
+                  <l>That lives in rivers, ponds, and bogge,</l>
+                  <l>His tyrannie many a fiſh doth feel,</l>
+                  <l>For himſelf is provided a trap of ſteel.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>GOds bleſſing be upon the Aire,</l>
+                  <l>Whereof all things living takes a ſhare:</l>
+                  <l>Wherein Fowls delight of every kind,</l>
+                  <l>Some lives in peace, ſome to warre inclin'd.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>THe Eagle is more ſtrong to fight,</l>
+                  <l>Then the Hawke, Buzzard, or the Kight:</l>
+                  <l>Yet all of them do live by prey,</l>
+                  <l>And ſmaller birds they much do fray.</l>
+               </lg>
+               <lg>
+                  <l>The Raven in want when he doth cry,</l>
+                  <l>God ſends him food he may not die:</l>
+                  <l>Then comfort man, who is of more price</l>
+                  <l>Then all the Ravens, and tell them twice.</l>
+               </lg>
+               <lg>
+                  <l>But little good of the Crow do ſay,</l>
+                  <l>Hang one to fray the other away:</l>
+                  <l>Ill members fils the world with care,</l>
+                  <l>And brings the Judge into his Chaire.</l>
+               </lg>
+               <pb n="6" facs="tcp:111952:6"/>
+               <lg>
+                  <l>The Jackdaw ſome do him keep tame,</l>
+                  <l>Though his foſterer ſometimes doth ſhame;</l>
+                  <l>By ſtealing when he is in need,</l>
+                  <l>Himſelf, and little ones to feed.</l>
+               </lg>
+               <lg>
+                  <l>The Gooſe doth bear the common quill,</l>
+                  <l>With which we uſe to make our Will,</l>
+                  <l>And Covenants ſtrong as iron chaine,</l>
+                  <l>That we, nor our heires, can break in twaine.</l>
+               </lg>
+               <lg>
+                  <l>Of the Swan I have heard this Proverb told,</l>
+                  <l>Before her death to ſing is bold:</l>
+                  <l>Being dead, through her wing feathers flowe,</l>
+                  <l>All ſorts of Wines in Sellers lowe.</l>
+               </lg>
+               <lg>
+                  <l>The Duck in water doth delight;</l>
+                  <l>The Spaniel turns her joy to fright:</l>
+                  <l>Into the waters with haſte doth pack,</l>
+                  <l>To keep her feathers on her back.</l>
+               </lg>
+               <lg>
+                  <l>In the night, the crowing of the Cock,</l>
+                  <l>If we do mark, as good as a clock:</l>
+                  <l>And though his ſtature be not high,</l>
+                  <l>Yet will he fight untill he die.</l>
+               </lg>
+               <lg>
+                  <l>The Hen doth cackle when ſhe doth lay,</l>
+                  <l>As I have heard ſome huſwives ſay:</l>
+                  <l>If we talk much of our good deed,</l>
+                  <l>Smels of vain-glory that ſtinking weed.</l>
+               </lg>
+               <lg>
+                  <l>The Turkey, and the Peacock gay,</l>
+                  <l>Jetting with their feathers play;</l>
+                  <l>Turning their colours to and fro,</l>
+                  <l>Like a Souldier to meet his foe.</l>
+               </lg>
+               <lg>
+                  <l>The Pheſant, Pateridge, and the Quail,</l>
+                  <l>The Woodcock, Snipe, Curlew, and Rail,</l>
+                  <l>On the rich mans table down do fall,</l>
+                  <l>By the ſilver load-ſtone with a call.</l>
+               </lg>
+               <pb n="7" facs="tcp:111952:6"/>
+               <lg>
+                  <l>The Plover green is much in fear,</l>
+                  <l>When man unto her neſt comes near;</l>
+                  <l>With flying up and down doth cry,</l>
+                  <l>Her young in ſecret ſtill may lye.</l>
+               </lg>
+               <lg>
+                  <l>The daintie gray Plover on the ground,</l>
+                  <l>He that will winne doth compaſſe round:</l>
+                  <l>But he that haſtily comes run,</l>
+                  <l>Prevents the benefit of his gun.</l>
+               </lg>
+               <lg>
+                  <l>The Pigeon beſtows all her pains</l>
+                  <l>For houſe-roome in breeding, and gives her gains;</l>
+                  <l>She loves to flie abroad at large,</l>
+                  <l>And not to eat all at her maſters charge.</l>
+               </lg>
+               <lg>
+                  <l>The Owl that flieth in the night,</l>
+                  <l>And in the day comes leaſt in ſight:</l>
+                  <l>Deſarts, and unquet woods are fit</l>
+                  <l>For this ſtrange Bird therein to get.</l>
+               </lg>
+               <lg>
+                  <l>The Bat although but very ſmall,</l>
+                  <l>Yet of Birds, and Fowls, reckon them all,</l>
+                  <l>Theres none that can in any weather,</l>
+                  <l>Flie like the Bat without a feather.</l>
+               </lg>
+               <lg>
+                  <l>The Swallow, and the Martin ſpie</l>
+                  <l>How to us they may be neighbours nigh;</l>
+                  <l>They build their houſe upon our wals,</l>
+                  <l>As if they were free of ſome of our Hals.</l>
+               </lg>
+               <lg>
+                  <l>The Sparrow ſits chirping on the houſe top,</l>
+                  <l>About the corn-reek he uſeth to hop;</l>
+                  <l>In Sommer contentious with his own kind,</l>
+                  <l>In field by the eares we many may find.</l>
+               </lg>
+               <lg>
+                  <l>The Parrat, he is learned to talk,</l>
+                  <l>To honeſt men ſay, walk knave walk:</l>
+                  <l>But rather then we would do any wrong,</l>
+                  <l>Should cut our tongue if it grow too long.</l>
+               </lg>
+               <pb n="6" facs="tcp:111952:7"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="7" facs="tcp:111952:7"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="8" facs="tcp:111952:8"/>
+               <lg>
+                  <l>Within the airie ſinging queare,</l>
+                  <l>All ſilence gives with liſſening care</l>
+                  <l>Unto the Nightingals trebble found,</l>
+                  <l>When the ſad night with darkneſſe bound.</l>
+               </lg>
+               <lg>
+                  <l>Another bird doth take his time,</l>
+                  <l>When that the earth is in full prime:</l>
+                  <l>Yet nothing but Cuckow is his note,</l>
+                  <l>Though oft with egges he ſcoures his throat.</l>
+               </lg>
+               <lg>
+                  <l>The Veldenere, Blackbird, and Thruſh,</l>
+                  <l>Makes Muſick upon every buſh:</l>
+                  <l>They ſing a well to the churle, or clown,</l>
+                  <l>As he that weares a velvet gowne.</l>
+               </lg>
+               <lg>
+                  <l>The Lark with joy when it is day,</l>
+                  <l>Up towards Heaven doth take her way:</l>
+                  <l>So ſhould our thoughts firſt in the morning,</l>
+                  <l>For ſleep is but to death a warning.</l>
+               </lg>
+               <lg>
+                  <l>The prettie innocent Turtle-dove,</l>
+                  <l>Highly commended for her love,</l>
+                  <l>That ſhe unto her Mate doth owe,</l>
+                  <l>One hurt, cauſing the others woe.</l>
+               </lg>
+               <lg>
+                  <l>The Robin red-breaſt comes at ſome hole,</l>
+                  <l>When we are warming at a coal:</l>
+                  <l>Within ſome roome craves little ſtay.</l>
+                  <l>To help to drive cold winter away.</l>
+               </lg>
+               <lg>
+                  <l>VVhat commendation with us men,</l>
+                  <l>VVhich do deſtroy the little VVren,</l>
+                  <l>Making a ſport their lives to ſpill,</l>
+                  <l>VVhen they are free from doing ill.</l>
+               </lg>
+               <lg>
+                  <l>The Bee a diligent ſervant is,</l>
+                  <l>In time to work ſhe will not miſſe:</l>
+                  <l>If this be true, do this for her,</l>
+                  <l>That none do harme, moleſt, or ſtir.</l>
+               </lg>
+               <pb n="9" facs="tcp:111952:8"/>
+               <lg>
+                  <l>The Waſpe loves ſweet things as his life,</l>
+                  <l>Yet oft deare byes it with great ſtrife:</l>
+                  <l>The Bee ſometimes in fight overcomes,</l>
+                  <l>Robs Orchards and Shops of Pears and Plums.</l>
+               </lg>
+               <lg>
+                  <l>The Butterfly in the hot weather,</l>
+                  <l>As gay as thoſe deckt with a feather:</l>
+                  <l>In Winter ſleeping, eating no crum,</l>
+                  <l>And will not be waked by Fife and Drum.</l>
+               </lg>
+               <lg>
+                  <l>The Fly comes ſinging for her meat,</l>
+                  <l>The Butcher and Cook ſometimes her beat:</l>
+                  <l>Shes a gueſt comes whether they will or no,</l>
+                  <l>Behaves her ſelf like to a great ſo.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>THe Bud and Bloſſome on the tree,</l>
+                  <l>So come into the world do we;</l>
+                  <l>By Gods all-diſpoſing power,</l>
+                  <l>Some in tent, and ſome in tower.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>THe Gentleman that lives by his Lands,</l>
+                  <l>And ſets to work many poore mens hands:</l>
+                  <l>Churliſh conditions, he hates them all,</l>
+                  <l>He is courteous, kind, and liberall.</l>
+               </lg>
+               <lg>
+                  <l>The valiant Souldier haſte to come,</l>
+                  <l>At ſound of Trumpet, and the Drum:</l>
+                  <l>His honoured deeds farre do ring,</l>
+                  <l>And makes a Common-wealth to ſing.</l>
+               </lg>
+               <lg>
+                  <l>The Marchant ſtayes for winde and tide,</l>
+                  <l>Upon the loftie wa<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es to ride;</l>
+                  <l>In hope the golden fleece to ſweep,</l>
+                  <l>He ventures the hazard of the deep.</l>
+               </lg>
+               <lg>
+                  <l>The Husbandman provides good ſeed,</l>
+                  <l>And carefully his fields doth weed:</l>
+                  <l>His Plough and Harrow, with Sickle ſharp,</l>
+                  <l>He loveth better than the Harp.</l>
+               </lg>
+               <pb n="10" facs="tcp:111952:9"/>
+               <lg>
+                  <l>The Carpenter his Art houſes to reare</l>
+                  <l>From the levell'd ground into the aire,</l>
+                  <l>Wherein we ſing, we laugh, we crie,</l>
+                  <l>And wherein commonly we die.</l>
+               </lg>
+               <lg>
+                  <l>The Joyner muſtereth up his tools,</l>
+                  <l>For to make tables, chaires, and ſtools;</l>
+                  <l>The young man may reſt his wearie knee,</l>
+                  <l>And old man ſit comely to ſee.</l>
+               </lg>
+               <lg>
+                  <l>The Maſon makes the Caſtle wall,</l>
+                  <l>Not thrown down by a tennis-ball;</l>
+                  <l>Nor thundring ſhot as thick as hail,</l>
+                  <l>Can make the battlements to fail.</l>
+               </lg>
+               <lg>
+                  <l>The Taylor doth not caſt his head</l>
+                  <l>To pinch a garment, and ſave a threed:</l>
+                  <l>From antick ſhapes he turns his ſheeres,</l>
+                  <l>And keeps civill cuſtomes as appeares.</l>
+               </lg>
+               <lg>
+                  <l>The Miller keeps not his toll-diſh to deep,</l>
+                  <l>But each mans meal together doth ſweep:</l>
+                  <l>Wonder he ſteals not; reaſon why,</l>
+                  <l>Conſcience his clack ſtands alwayes by.</l>
+               </lg>
+               <lg>
+                  <l>The Butcher with his maſtie dogge,</l>
+                  <l>Kils the ox, the ſheep, the gruntling hogge:</l>
+                  <l>He keeps his meat cleanly to ſhow,</l>
+                  <l>Without deceit to puffe or blow.</l>
+               </lg>
+               <lg>
+                  <l>The Smith cold Iron gives a heat,</l>
+                  <l>With blowing and beating himſelf doth ſweat:</l>
+                  <l>He riſeth more early unto his hard task,</l>
+                  <l>Then thoſe that vainly dance in a mask.</l>
+               </lg>
+               <lg>
+                  <l>The Goldſmith of all the veſſels he makes,</l>
+                  <l>The Ring is excellent for Lovers ſakes.</l>
+                  <l>True love hath no end, the Ring made round,</l>
+                  <l>Ingraven'd with poſies pretily found.</l>
+               </lg>
+               <pb n="11" facs="tcp:111952:9"/>
+               <lg>
+                  <l>Good huſwives follow the Weavers march,</l>
+                  <l>As needfull, they ſay, as to waſh and ſtarch:</l>
+                  <l>To clothe their houſhold each girle and lad,</l>
+                  <l>Others neglect of ragges are they glad.</l>
+               </lg>
+               <lg>
+                  <l>The Draper hath readie both Ell and Yeard,</l>
+                  <l>To look they be ſealed, and juſt, hath regard:</l>
+                  <l>He giveth good words in prentiſhip taught,</l>
+                  <l>And good words of all are eaſily bought.</l>
+               </lg>
+               <lg>
+                  <l>The Turner maketh wooden ware,</l>
+                  <l>Of ſeaſoned wood he need not ſweare,</l>
+                  <l>To curſe and ſweare in common uſe,</l>
+                  <l>A cuſtome of the heathens abuſe.</l>
+               </lg>
+               <lg>
+                  <l>The Tanner taketh time enough</l>
+                  <l>To tanne his leather to the proofe;</l>
+                  <l>He well conſidereth in his mind,</l>
+                  <l>A generall good all ſhall it find.</l>
+               </lg>
+               <lg>
+                  <l>The Shoomaker fits the Ladies foot,</l>
+                  <l>As well as the Carter with a boot:</l>
+                  <l>And three-ſould ſhooes, with the ſingle pump</l>
+                  <l>He makes light to run, to leap, or jump.</l>
+               </lg>
+               <lg>
+                  <l>The Cobler that ſits under a ſtall,</l>
+                  <l>Not likely to catch any great fall:</l>
+                  <l>Though ſome look not lowe him to eſpie.</l>
+                  <l>Sets many a man right, treading awrie.</l>
+               </lg>
+               <lg>
+                  <l>The Dyer makes his colours in grain,</l>
+                  <l>That quickly will not change or ſtain:</l>
+                  <l>Be our coat what colour we will,</l>
+                  <l>So pride our heart it do not ſpill.</l>
+               </lg>
+               <lg>
+                  <l>The Gardener doth clip and pare,</l>
+                  <l>To trim his walkes and borders ſquare:</l>
+                  <l>He raiſeth pleaſant mounts we find,</l>
+                  <l>And ſeated Arbours covered with Woodbind.</l>
+               </lg>
+               <pb n="12" facs="tcp:111952:10"/>
+               <lg>
+                  <l>Through hollow vaults in dungeon deep,</l>
+                  <l>Wh<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e v<gap reason="illegible" resp="#MURP" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ring Damps their tydes do keep;</l>
+                  <l>Thence culs the Miner gold friends may lend,</l>
+                  <l>And Lead the token foe to foe ſend.</l>
+               </lg>
+               <lg>
+                  <l>The Fiſher to the ſalt Seas ſetteth ſale,</l>
+                  <l>We deſire he may have a happie gale;</l>
+                  <l>By him on the Land we live in more plentie,</l>
+                  <l>If he do not thrive, our table more emptie.</l>
+               </lg>
+               <lg>
+                  <l>The Fowlers horſe and dogge well taught,</l>
+                  <l>His Peece the beſt that can be bought;</l>
+                  <l>Though Fowl be raiſed where they lie,</l>
+                  <l>He can command them as they flie.</l>
+               </lg>
+               <lg>
+                  <l>The Uphoulſter to furniſh the Bed,</l>
+                  <l>For reſt when ſleep is in thy head:</l>
+                  <l>Much ſluggiſhneſſe but duls the mind,</l>
+                  <l>But livelineſſe becomes mankind.</l>
+               </lg>
+               <lg>
+                  <l>The Colliar leſt we fire ſhould lack,</l>
+                  <l>Doth bring us coals upon his back:</l>
+                  <l>That when our houſe is beſet with ſnow,</l>
+                  <l>He may not ſee our nails to blowe.</l>
+               </lg>
+               <lg>
+                  <l>The Shepherds care over their flocks,</l>
+                  <l>To keep the buſhes from their locks,</l>
+                  <l>And to lead them into paſtures drie,</l>
+                  <l>If need require, the tar-bottle nigh.</l>
+               </lg>
+               <lg>
+                  <l>The Croſſer for out-landiſh ſpice,</l>
+                  <l>With Figs, and Almonds, Dates, and Rice:</l>
+                  <l>If poore folk to much Sugar their taſte,</l>
+                  <l>I fear their ſmall wealth too ſoon will waſte.</l>
+               </lg>
+               <lg>
+                  <l>The Cook for bakt meats, boyl'd, and roſte,</l>
+                  <l>Sends to the table hot as a toſte:</l>
+                  <l>To pleaſe with ſawce both ſtomack and taſte,</l>
+                  <l>Without exceſſe of making waſte.</l>
+               </lg>
+               <pb n="13" facs="tcp:111952:10"/>
+               <lg>
+                  <l>The Alchouſe-keeper ſets his ſigne,</l>
+                  <l>The ſtranger may both ſup and dine:</l>
+                  <l>If any ſtayes to carowſe and talk,</l>
+                  <l>He tels them plainly, my friends go walk.</l>
+               </lg>
+               <lg>
+                  <l>The Maltman here and there doth place,</l>
+                  <l>And up and down his houſe doth chaſe:</l>
+                  <l>His Malt to keep from akerſpire,</l>
+                  <l>And after dries it with ſoft fire.</l>
+               </lg>
+               <lg>
+                  <l>The Brewer his ſtrong Ale and Beere,</l>
+                  <l>Many drooping hearts doth merrily chee<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</l>
+                  <l>His ſmaller Beere for weaker braines,</l>
+                  <l>Where quarrels and diſtempers raignes.</l>
+               </lg>
+               <lg>
+                  <l>Many gives care to the Bakers knock,</l>
+                  <l>Unbarring their gates, and doores unlock:</l>
+                  <l>Bread being ordain'd the chief ſtaffe of life,</l>
+                  <l>For man, his children, and his wife.</l>
+               </lg>
+               <lg>
+                  <l>The Hatter with his Beaver trim,</l>
+                  <l>And good ſtrong Felt both crown and brim:</l>
+                  <l>Of neweſt faſhion the Hat-band wrote,</l>
+                  <l>For to pleaſe children to be bought.</l>
+               </lg>
+               <lg>
+                  <l>The Glover dreſſeth ſoft his leather,</l>
+                  <l>To keep your hands from winde and weather,</l>
+                  <l>And makes a Purſe to keep your pence,</l>
+                  <l>Think on the poore in time of expence.</l>
+               </lg>
+               <lg>
+                  <l>The Inne-keeper he looks not coy,</l>
+                  <l>But entertains his gueſſe with joy:</l>
+                  <l>Chamberlain, and Hoſtler at a call,</l>
+                  <l>To anſwer unto great and ſmall.</l>
+               </lg>
+               <lg>
+                  <l>The Tapſter I had like to forgot,</l>
+                  <l>W<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>le he went to waſh the glaſſe and pot;</l>
+                  <l>Bu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ravellers that are athirſt,</l>
+                  <l>Deſires to talk with the Tapſter firſt.</l>
+               </lg>
+               <pb n="14" facs="tcp:111952:11"/>
+               <lg>
+                  <l>The Carrier travels up and down,</l>
+                  <l>From Citie unto the Countrey town,</l>
+                  <l>He uſeth not to ride poſte or ſpeed,</l>
+                  <l>But faire and ſoftly taking heed.</l>
+               </lg>
+               <lg>
+                  <l>The many ſlowers and hearbs of fame,</l>
+                  <l>The Apothecary can call by name:</l>
+                  <l>Great coſt and care takes to preſerve,</l>
+                  <l>From biting Winter them would ſtarve.</l>
+               </lg>
+               <lg>
+                  <l>The Phyſitian prayes health may ſtand,</l>
+                  <l>If ſickneſſe come, ſend him horſe well man'd:</l>
+                  <l>No age ſo healthy but ſome muſt needs die,</l>
+                  <l>And ſome recovered by Phyſicks reply.</l>
+               </lg>
+               <lg>
+                  <l>The Chirurgion joyneth heart and hand,</l>
+                  <l>To the cure of the wounded man:</l>
+                  <l>And more that doth increaſe his fame,</l>
+                  <l>He makes to walk the cripple, lame.</l>
+               </lg>
+               <lg>
+                  <l>The Chandlour when the darkſome night</l>
+                  <l>Doth barre from us the comfortable light;</l>
+                  <l>Then appears his Candles ſet in frames,</l>
+                  <l>For guides in the ſtreets his Torches flames.</l>
+               </lg>
+               <lg>
+                  <l>The Muſitianer heavenly voice,</l>
+                  <l>Delights the eares, the heart rejoyce:</l>
+                  <l>He turns and winds with curious ſtraine,</l>
+                  <l>Leaves idle ſongs to fellows vain.</l>
+               </lg>
+               <lg>
+                  <l>The Imbroyderer works gold and pearl,</l>
+                  <l>Fit for the Noble Lord, and Earl:</l>
+                  <l>The meaner ſort a golden praiſe,</l>
+                  <l>To ſee them in good Countrey grayſe.</l>
+               </lg>
+               <lg>
+                  <l>The Labourer that works by the day,</l>
+                  <l>Sleepeth more ſoundly then they that play:</l>
+                  <l>Content with what he eats and drinks,</l>
+                  <l>As them worth thouſands as merrily thinks.</l>
+               </lg>
+               <pb n="15" facs="tcp:111952:11"/>
+               <lg>
+                  <l>The Braſier, and the Pewterer,</l>
+                  <l>Early and late themſelves beſtir,</l>
+                  <l>To help Houſe-keepers new and old,</l>
+                  <l>With things needfull as ſilver and gold.</l>
+               </lg>
+               <lg>
+                  <l>The Tinker ſeeing others to work fall,</l>
+                  <l>And he having none, aloud doth call:</l>
+                  <l>Or on a Pan a peal doth ring,</l>
+                  <l>That work unto him ſome would bring.</l>
+               </lg>
+               <lg>
+                  <l>The Plaiſterer and Painter rare,</l>
+                  <l>Shapeth the Lyon, with Bull and Beare,</l>
+                  <l>With other objects of delight,</l>
+                  <l>For exerciſing of the ſight.</l>
+               </lg>
+               <lg>
+                  <l>The Glaſier his glaſſe ſo clear,</l>
+                  <l>The glorious Sunſhine doth appear,</l>
+                  <l>A welcome to our houſe we ſhowe,</l>
+                  <l>But bluſtering winds without to blowe.</l>
+               </lg>
+               <lg>
+                  <l>The Chimney-ſweeper with holly buſh,</l>
+                  <l>From top to bottom down doth bruſh;</l>
+                  <l>The fiery ſparks that turns to aſhes,</l>
+                  <l>Bred colly black with ſmokie flaſhee.</l>
+               </lg>
+               <lg>
+                  <l>The Barbar with his waſhball ſweet,</l>
+                  <l>With Baſon, Towell, and all things meet;</l>
+                  <l>He cuts, and ſhaves with skilfull aime,</l>
+                  <l>No cauſe to crie, fie, fie for ſhame.</l>
+               </lg>
+               <lg>
+                  <l>The Vintners treaſure lies deep in ground,</l>
+                  <l>Being well fenced and buckled round:</l>
+                  <l>Neare to it ſets a watch in a Bar,</l>
+                  <l>To ſee what goes to the Sun and the Star.</l>
+               </lg>
+               <lg>
+                  <l>The Sadler them that pleaſe to ride,</l>
+                  <l>Of men or women that ride aſide:</l>
+                  <l>Provideth furniture good and ſtrong,</l>
+                  <l>They may ride eaſie, and the horſe not wrong.</l>
+               </lg>
+               <pb n="16" facs="tcp:111952:12"/>
+               <lg>
+                  <l>The Cutler makes the well tempted blade,</l>
+                  <l>Both back and edge he learn'd well his trade:</l>
+                  <l>He that will be angry at a ſtraw,</l>
+                  <l>Give him a wooden ſword to weare and draw.</l>
+               </lg>
+               <lg>
+                  <l>The Pedler comes with his pack ats back,</l>
+                  <l>Saying, Dame what now do you lack?</l>
+                  <l>See choice of Needles, Pins, Points, and Laces,</l>
+                  <l>And for your little girles I have Bongraces.</l>
+               </lg>
+               <lg>
+                  <l>The Servingman we may eſpie,</l>
+                  <l>Diligent to his Maſter, tis no lie:</l>
+                  <l>And if by chance a thief bid ſtand,</l>
+                  <l>He ſtrives to vanquiſh that proud command.</l>
+               </lg>
+               <lg>
+                  <l>The Printer paper and Inke he finds,</l>
+                  <l>To print the thoughts of many minds:</l>
+                  <l>One age to let another know,</l>
+                  <l>What things hath hapned here belowe.</l>
+               </lg>
+               <lg>
+                  <l>The Lawyer marks well the poore mans caſe,</l>
+                  <l>Leſt wrong ſhould force right to give place;</l>
+                  <l>His organ voice in the Judges care rings,</l>
+                  <l>While the adverſe part full ſore he ſtings.</l>
+               </lg>
+               <lg>
+                  <l>The reverend Divine and grave,</l>
+                  <l>Fights with Gods Word gainſt the devils ſlave;</l>
+                  <l>And humbly crave if this they ſee,</l>
+                  <l>That no offence they take at me.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>NOw comes three Sergeants to arreſt our bones,</l>
+                  <l>And carrie them between hard ſtores:</l>
+                  <l>Age, Sickneſſe, Death, with his ſting,</l>
+                  <l>Remember alwayes of this thing.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
